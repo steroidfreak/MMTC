@@ -1,0 +1,121 @@
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  /* // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900 */
+
+.archivo-100 {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.archivo-300 {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}   
+  
+.archivo-500 {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}  
+
+.archivo-700 {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.archivo-900 {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+} 
+
+.fixed-bottom {
+    position: fixed;
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: black;/* Change this to your desired background color */
+    padding: 10px; /* Adjust the padding as needed */
+    text-align: center; /* Center the content inside the div */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow effect */
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+        .fontsize{
+            font-size: 1rem;
+        }
+    }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+        .fontsize{
+            font-size: 1.1rem;
+        }
+    }
+    
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+        .fontsize{
+            font-size: 1.2rem;
+        }
+
+    }
+    
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+        .fontsize{
+            font-size: 1.4rem;
+        }
+    }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+        .fontsize{
+            font-size: 1.7rem;
+        }
+    }
